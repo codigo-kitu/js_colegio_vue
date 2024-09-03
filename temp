@@ -1,0 +1,18 @@
+var table = document.getElementById("tableId");
+var totalRowCount = table.rows.length; // 5
+
+
+let values1 = {
+			pagination: this.getPagination(),
+			_token: this.getToken()
+		};
+		
+getToken() {
+		return  document.querySelector('meta[name="csrf-token"]').content;
+	}
+	
+<script type="text/javascript">
+		Constantes.URL_BASE = '{{ $url_base }}';
+</script>
+
+htmx.ajax('GET', '/example', {target:'#myDiv', swap:'outerHTML'})
